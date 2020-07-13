@@ -27,9 +27,10 @@ It’s numpy ndarray after using librosa.load():
 ![MFCCNormalized](MFCCNormalized.png)
 
 The same file after I used MFCC on it:
+.
 ![MFCC](MFCC.png)
-
-
+.
+.
 I have observed that if the number of mfccs processed is higher, the accuracy will be higher too. The default value of the parameter n_mfcc from librosa.feature.load is set to 20. If I increase it to a value greater than 100, there will be differences even greater than 0.05 – 0.07, which is a huge 5-7% impact on the accuracy.
 I have rendered the spectrogram so I have a visualization of it:
 
