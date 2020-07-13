@@ -44,7 +44,8 @@ I have tried modifying the other parameters but nothing helped.
 ## Conclusion
 
 After many tries of getting the best results on the data that I have been given, with SVM model, these are the results:
-Accuracy score =  0.693
-F1 score =  0.7095553453169348
+## Accuracy score =  0.693
+
+## F1 score =  0.7095553453169348
 
 I have tried using KNN model too but the best result was 0.565 or something like that, so I dropped the idea of using it.
